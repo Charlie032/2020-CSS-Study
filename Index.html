@@ -1,11 +1,57 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en" Dir= "ltr">
 <head>
   <meta charset= "utf-8">
   <title> CSS Home </title>
+  <style>
+#h1 {
+  text-align:center;
+}
+  ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #fce303;
+  }
+  li {
+  float:left;
+  }
+  li a{
+    display:block;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  li a:hover{
+    background-color:lime;
+  }
+  #layouts {
+    background-color:red;
+  }
+  #dropdown {
+    background-color:yellow;
+  }
+  #lists {
+    background-color:green;
+  }
+  #texting {
+    background-color:#03d7fc;
+  }
+  #navbar {
+    background-color:#f003fc;
+  }
+  </style>
 </head>
 <body>
-  <h1> My CSS Index </h1>
-    <a herf="layouts.html">Layouts</a>
+  <h1 id="h1"> My CSS Index </h1>
+  <ul>
+    <li id="layouts"><a href="Layouts.html">Layouts</a></li>
+    <li id="dropdown"><a href="DropdownNAVBAR.html">DropdownNavbar</a></li>
+    <li id="lists"><a href="lists.html">Lists</a></li>
+    <li id="texting"><a href="Texting.html">Texting</a></li>
+    <li id="navbar"><a href="Navbar.html">Navbar</a></li>
+  </ul>
   </body>
 </html>
